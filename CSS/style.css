@@ -10,6 +10,15 @@ aside {
     min-width: 275px;
 }
 
+@media screen and (max-width: 1024px) {
+    body {
+        display: inline;
+    }
+    aside {
+        width: 100%;
+    }
+}
+
 .headshot {
     padding: .2em;
     border: .5px solid rgb(168, 167, 167);
@@ -63,9 +72,29 @@ aside {
     padding: .7em;
 }
 
+@media screen and (max-width: 1024px) {
+    .hobbies {
+        height: 70px;
+        width: 70px;
+        padding: 1em;
+    }
+    .item-3 {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
 section {
     width: 75%;
     padding: 80px 40px 20px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    section {
+        width: 90%;
+        padding: 40px;
+        margin: auto;
+    }
 }
 
 header {
@@ -119,6 +148,28 @@ h4 i {
     font-size: 1.2em;
 }
 
+h4, p {
+    margin-top: .4em;
+    margin-bottom: .4em;
+}
+
+/* media q for icons and grid margins */
+
+@media screen and (max-width: 1024px) {
+    h4 i {
+        padding-right: 2em;
+    }
+    h4 {
+        margin: 0em;
+    }
+    p {
+        margin-bottom: .4em;
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 .list {
     display: flex;
     min-width: 150px;
@@ -138,7 +189,10 @@ h4 i {
     font-size: .5em;
 }
 
-h4, p {
-    margin-top: .4em;
-    margin-bottom: .4em;
+/* media q for list */
+
+@media screen and (max-width: 1024px) {
+    .list {
+        font-size: 23px;
+    }
 }
