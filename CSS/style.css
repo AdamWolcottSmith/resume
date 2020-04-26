@@ -19,6 +19,8 @@ aside {
     }
 }
 
+/* aside */
+
 .headshot {
     padding: .2em;
     border: .5px solid rgb(168, 167, 167);
@@ -83,6 +85,8 @@ aside {
         margin-bottom: auto;
     }
 }
+
+/* Main section */
 
 section {
     width: 75%;
