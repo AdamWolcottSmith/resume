@@ -1,2 +1,2 @@
 # resume
-OpenClassrooms Project 2
+single page project using HTML5 and CSS3
