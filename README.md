@@ -1,2 +1,2 @@
 # resume
-single page project using HTML5 and CSS3
+single page project using HTML5 and SCSS
